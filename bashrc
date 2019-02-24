@@ -104,6 +104,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias now='~/Documents/Programming/shell\ scripts/now.sh'
 alias cargo='~/.cargo/bin/cargo'
 alias rustup='~/.cargo/bin/rustup'
+alias racer='~/.cargo/bin/racer'
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
